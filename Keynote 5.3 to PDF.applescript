@@ -13,7 +13,7 @@ tell application "System Events"
 		end if
 		
 		-- Print; wait until the sheet is visible	
-		click menu item "Print…" of menu 1 of menu bar item "File" of menu bar 1
+		click menu item "Print‚Ä¶" of menu 1 of menu bar item "File" of menu bar 1
 		
 		repeat until sheet 1 of window 1 exists
 		end repeat
@@ -29,6 +29,6 @@ tell application "System Events"
 		click radio button "Individual Slides" of radio group 1 of sheet 1 of window 1 --replace to suit your needs
 		
 		click menu button "PDF" of sheet 1 of window 1
-		click menu item "Save as PDF…" of menu 1 of menu button "PDF" of sheet 1 of window 1 -- Save as PDF...
+		click menu item "Save as PDF‚Ä¶" of menu 1 of menu button "PDF" of sheet 1 of window 1 -- Save as PDF...
 	end tell
 end tell
