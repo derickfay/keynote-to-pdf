@@ -13,7 +13,7 @@ tell application "System Events"
 		end if
 		
 		-- Print; wait until the sheet is visible	
-		click menu item "Print…" of menu 1 of menu bar item "File" of menu bar 1
+		click menu item "Print‚Ä¶" of menu 1 of menu bar item "File" of menu bar 1
 		
 		repeat until sheet 1 of window 1 exists
 		end repeat
